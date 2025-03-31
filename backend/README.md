@@ -72,9 +72,9 @@ This is the backend for the **Classified Ads Management System**, developed usin
 8. **Run the Application**
    After configuring everything, run the server using:
    ```bash
-   php artisan serve
+   php artisan serve --port=8008
    ```
-   The backend should now be running on `http://127.0.0.1:8000`.
+   The backend should now be running on `http://127.0.0.1:8008`.
 
 ## Environment Variables
 
