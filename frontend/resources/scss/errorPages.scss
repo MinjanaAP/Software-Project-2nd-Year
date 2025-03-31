@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poppins' !important;
+  background-color: #ffffff;
+  
+  .page{
+    margin: 2rem 0;
+    font-size: 20px;
+    //font-weight: 600;
+    
+  }
+  
+  .button-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 20px;
+      height:auto;
+  }
+  
+  .custom-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 7px 25px;
+      width: 120px;
+      border: solid 2px transparent;
+      gap: 6px;
+      background: linear-gradient(white, white) padding-box, linear-gradient(to right, #1d2b64, #03a9f4) border-box;
+      border-radius: 15px;
+  }
+  
+  
+  .custom-button:hover {
+      background: #000000;
+      cursor: pointer;
+  }
+  
+  .custom-button .button-text {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      background: linear-gradient(90deg, #1d2b64 0%, #03a9f4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  .custom-button .button-text-black {
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+  }
+  
+  .custom-button:hover .button-text {
+      background: unset;
+      color: #fff;
+      -webkit-text-fill-color: #fff;
+  }
+  
+  .custom-button:hover .button-text-black {
+      color: #fff;
+  }
+  
+  .custom-button .button-icon {
+      color: #1d2b64;
+  }
+  
+  .custom-button:hover .button-icon {
+      color: #fff;
+  }
+  
+  /* one button */
+  .custom-button-one {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 7px 25px;
+      width: 150px;
+      border: solid 2px transparent;
+      gap: 6px;
+      background: linear-gradient(white, white) padding-box, linear-gradient(to right, #1d2b64, #03a9f4) border-box;
+      border-radius: 15px;
+  }
+  
+  
+  .custom-button-one:hover {
+      background: #000000;
+      cursor: pointer;
+  }
+  
+  .custom-button-one .button-text {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      background: linear-gradient(90deg, #1d2b64 0%, #03a9f4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  .custom-button-one .button-text-black {
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+  }
+  
+  .custom-button-one:hover .button-text {
+      background: unset;
+      color: #fff;
+      -webkit-text-fill-color: #fff;
+  }
+  
+  .custom-button-one:hover .button-text-black {
+      color: #fff;
+  }
+  
+  .custom-button-one .button-icon {
+      color: #1d2b64;
+  }
+  
+  .custom-button-one:hover .button-icon {
+      color: #fff;
+  }
+
+  .wrapper {
+    max-width: 600px;
+    margin: auto;
+}
+
+.message {
+    font-size: 0.8rem;
+    color: #00000094;
+    margin: 0px 0px 10px;
+}
+
+.error-topic{
+    font-weight: 800;
+}
+
+}
+
+
+
+
+
+
+
+
+

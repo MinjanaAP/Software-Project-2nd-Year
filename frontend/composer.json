@@ -1,0 +1,20 @@
+{
+    "name": "user/user_auth",
+    "autoload": {
+        "files": [
+            "app/Helpers/Helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IshariAbeysooriya",
+            "email": "abeysooriyaip.21@uom.lk"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.0"
+    }
+}

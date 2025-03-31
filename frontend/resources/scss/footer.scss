@@ -1,0 +1,112 @@
+// section {
+//     padding: 10px 32px 32px 32px;
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(20%, auto));
+//     gap: 3.5rem;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+// }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #71DFB7;
+
+    padding: 10px 32px 32px 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, auto));
+    gap: 3.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+
+}
+
+.footer-about, .footer-company, .footer-help-support, .footer-account {
+    // /* width: 100%; 
+    height: auto;
+}
+
+.footer-about h4, .footer-company h4, .footer-help-support h4, .footer-account h4 {
+    font-size: 24px;
+    color: #3F2E40;
+    text-shadow: 0px 4px 4px #537C8A; 
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-about h4::before, .footer-company h4::before, .footer-help-support h4::before, .footer-account h4::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #bd5a09;
+    height: 2px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 50px;
+}
+
+.footer-about li, .footer-company li, .footer-help-support li, .footer-account li {
+    margin-bottom: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-about li a, .footer-company li a, .footer-help-support li a, .footer-account li a {
+    display: block;
+    color: #3F2E40;
+    font-size: 15px;
+    font-weight: 400;
+    // transition: all .40s ease;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-company ul li a:hover, .footer-help-support ul li a:hover, .footer-account ul li a:hover, .footer-about ul li a:hover {
+    color: #bd5a09;
+    padding-left: 8px;
+}
+
+.footer-about p, .footer-company p, .footer-help-support p, .footer-account p {
+    color: #3F2E40;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.footer-social {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    color: #3F2E40;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+.footer-social i:hover {
+    color: #bd5a09;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.footer-copyright {
+    background: #71DFB7;
+    text-align: center;
+    color: #3F2E40;
+    /* border: 1px solid; */
+}
+
+.footer-divider {
+    border-top: 2px solid;
+}

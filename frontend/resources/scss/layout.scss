@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+body{
+    font-family: 'Poppins';
+
+
+.container-fluid.bg-wh-red{
+background-color: #A6212C; 
+}
+.container-fluid.bg-wh-green{
+background-color: #CAF2C4; 
+}
+.container-fluid.bg-wh-bleach{
+background-color: #F2c48d; 
+}
+
+.nav-item {
+  color: black;
+}
+
+/* Custom styling for the new button */
+.custom-toggler {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  color: white;
+}
+
+.custom-toggler:focus {
+  outline: none;
+}
+
+.navbar-nav.flex-column.flex-sm-row .nav-link {
+  margin-right: 10px;
+}
+
+a.nav-link{
+  font-weight: 500 !important;
+
+}
+
+
+.btn.btn-wh-green.py-2 {
+  border-style: none;
+  box-shadow: 1px 1px 3px 0px rgba(154, 183, 149, 0.90), -1px -1px 2px 0px rgba(240, 255, 233, 0.90), 1px -1px 2px 0px rgba(154, 183, 149, 0.20), -1px 1px 2px 0px rgba(154, 183, 149, 0.20), -1px -1px 2px 0px rgba(154, 183, 149, 0.50) inset, 1px 1px 2px 0px rgba(240, 255, 233, 0.30) inset;
+  background-color: #CAF2C4;
+  border-radius: 40px;
+}
+.btn.btn-wh-bleach.py-2{
+    border-style: none;
+  box-shadow: 1px 1px 3px 0px rgba(154, 183, 149, 0.90), -1px -1px 2px 0px rgba(240, 255, 233, 0.90), 1px -1px 2px 0px rgba(154, 183, 149, 0.20), -1px 1px 2px 0px rgba(154, 183, 149, 0.20), -1px -1px 2px 0px rgba(154, 183, 149, 0.50) inset, 1px 1px 2px 0px rgba(240, 255, 233, 0.30) inset;
+  background-color: #F2c48d;
+  border-radius: 40px;
+}
+.btn.btn-secondary-menu{
+  color: white;
+    border-style: none;
+  background-color: #6c757d;
+  border-radius: 40px;
+}
+// .btn.btn-secondary.dropdown-toggle {
+//   background-color: #6c757d;
+//   border: none;
+//   color: #f2ecec;
+//   border-radius: 40px;
+// }
+form{
+.layout.form-control{
+    border-radius: 40px;
+
+}
+}
+.input-group-text{
+    border-radius: 40px;
+}
+
+.menu-button {
+  border: #CAF2C4;
+  background-color: #CAF2C4;
+  border-radius: 40px;
+
+} 
+
+.icon-image {
+  width: 24px;
+  height: auto;
+
+}
+
+
+.btn.btn-secondary-menu.dropdown-toggle::after {
+  /* Remove the styling for the caret */
+  content: none;
+}
+.btn.btn-filter.dropdown-toggle::after {
+  /* Remove the styling for the caret */
+  content: none;
+}
+.button-gap {
+  margin-right: 140px; 
+}
+
+}
+
+.profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-left: 0rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.dropdown-menu-center {
+  left: 75%;
+  transform: translateX(-50%);
+}
+.dropdown-menu-end {
+  min-width: 300px; 
+  max-width: 400px; 
+  width: 100%; 
+}
+.dropdown-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-padding{
+  padding: 2px 0px;
+}
+
+// button login-signUp
+
+/* CSS */
+.button-login {
+  background-color: #3D3873;
+  border-radius: 100px;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-login:hover {
+  box-shadow: #3D387359 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.button-signUp {
+  background-color: #6E9D67;
+  border-radius: 100px;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-signUp:hover {
+  box-shadow: #6E9D6759 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.tittle{
+  color: #3d3873;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05), -1px -1px 2px rgba(16, 9, 38, 0.514);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.tittle-sm{
+  color: #3d3873;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05), -1px -1px 2px rgba(16, 9, 38, 0.514);
+  font-family: "Niconne", cursive;
+  font-size: 32px;
+  font-style: normal;
+  text-align: center;
+}
+
+.tittle-e{
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bottom-scroll-bar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1030; 
+
+  .background-box{
+    background-color: #3D3873;
+    color: rgba(255, 255, 255, 0.831);
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.8);
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+#loginBtnDropdown{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.scrolling-text-content.fw-bold.m-0{
+  color: yellow;
+}
+
+
+.scrolling-text-content {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid orange; // Adjust the color as needed
+  animation: blink-caret 0.75s step-end infinite;
+  
+
+  &.finished {
+    border-right: none;
+    animation: none;
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange; // Adjust the color as needed
+    }
+  }
+}
+
+
+

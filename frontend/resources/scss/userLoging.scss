@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  font-family:'Poppins';
+
+  .container-fluid.bg-wh-red{
+    background-color: #A6212C; 
+  }
+  .container-fluid.bg-wh-green{
+    background-color: #CAF2C4; 
+  }
+  .container-fluid.bg-wh-bleach{
+    background-color: #F2c48d; 
+  }
+
+  .btn.user{
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background: #CAF2C4;
+    border-style: none;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.15);
+    gap: 16px; 
+  }  
+    
+  .signin-form-button-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 16px;
+    padding-bottom: 1px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .form-control{
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(255, 255, 255, 0.83);
+    color: rgba(0, 0, 0, 0.40);
+    font-style: normal;
+    font-weight: light;
+    line-height: 100%; /* 16px */
+  } 
+
+  .otp-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 0;
+  }
+
+  .mt-2{
+    color: #A6212C;
+  }
+
+  .signin-form-button2 img{
+    width: 24px;
+    height: 24px;
+  }
+
+  .signin-form-button2{
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background: #ffffff;
+    border-style: none;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.15);
+    gap: 16px; 
+
+    a{
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.883);
+    }
+  }
+
+  .bottom-padding{
+    padding-bottom: 50px;
+}
+}
+
+
+
+.button-33 {
+  background-color: #CAF2C4;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

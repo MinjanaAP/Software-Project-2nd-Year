@@ -1,0 +1,177 @@
+//@import '../node_modules/bootstrap/scss/bootstrap.scss'; 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+
+    font-family: 'Poppins';
+    //bannerAd1 page//
+    .btn.btn-lg.px-5 {
+                display: flex;
+                border-radius: 32px;
+                background: #CFF7C9;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.15);
+            }
+    .adtype{
+        color: rgba(102, 102, 102, 0.80);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px; /* 50% */
+    }
+
+    .type_explain{
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 180%; /* 25.2px */
+    }
+
+    .form-check{
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+    .body_starting{
+        color: rgba(102, 102, 102, 0.80);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px; /* 56.25% */
+    }
+
+            
+    //bannerAd1 page close //
+
+    
+
+        .main{
+            color: rgba(102, 102, 102, 0.80);
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px; /* 50% */
+        }
+
+        .form-layout{
+            
+            padding: 32px;
+            gap: 40px;
+            /* flex-shrink: 0; */
+            border-radius: 12px;
+            border: 1px solid #AAA; 
+            background: #FFF;
+            border-radius: 12px;
+            /* FigJam Tips/Card shadow */
+            box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+
+            .main-1{
+                color: #000;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 32px; /* 133.333% */
+                letter-spacing: -0.36px;
+            }
+
+            .main-2{
+                color: #000;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 275;
+                line-height: 20px; /* 142.857% */
+                letter-spacing: -0.14px;
+            }
+
+            .banner-image{
+                height: 100px;
+            }
+
+            .main-3{
+                color: #000;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 140%; /* 22.4px */
+            }
+
+            .main-4{
+                color: #000;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 21px */
+            }
+
+
+
+            /*----------form start----------*/
+            
+            .row{
+                display: flex;
+
+                .label-layout{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+         
+                }
+    
+                .input-layout{
+                    display: flex;
+                    align-items: center;
+                    flex: 1 0 0;
+                    border-radius: 4px;
+                    border: 1px solid var(--Gray-400, #CED4DA);
+    
+                }
+                
+
+            }
+
+            span{
+                font-size: 12px;
+                color: #A6212C;
+            
+            }
+
+   
+
+            /* ---drag & drop zone---*/
+
+            button:focus,
+            input:focus{
+            outline: none;
+            box-shadow: none;
+            }
+            a,
+            a:hover{
+            text-decoration: none;
+            }
+
+            
+
+            /*----------next & back button----------*/
+            .btn{
+                display: flex;
+                border-radius: 32px;
+                background-color: #CFF7C9; 
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0; 
+                box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.15);
+            }
+            
+
+        }
+
+
+}

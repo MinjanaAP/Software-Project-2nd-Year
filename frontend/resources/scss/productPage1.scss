@@ -1,0 +1,255 @@
+.btn.w-50.my-2.email{
+    background-color: #CBF2C5;
+    color: black;   
+    
+
+    &:hover{
+        background-color: #abf4a0;
+    }
+}
+
+
+
+.btn.w-100.my-2.bargain{
+    background-color: #F1C48D;
+    color: black;   
+    
+
+    &:hover{
+        background-color: #f1992e;
+    }
+}
+
+
+.d-block.productRightUp.my-5.py-2{
+    background-color: #FFFFFF;
+    border-radius: 10px; 
+
+}
+
+.productTitle.fw-bold{
+    color: #2D66D3 ;
+}
+
+#profile-img{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.d-block.productRightDown.my-4.p-3{
+    background-color: #F5F5F5;
+    border-radius: 10px; 
+
+}
+
+.d-flex.justify-content-center.m-2{
+    border-radius: 50%;
+}
+
+.verticalAdPP{
+    height: auto;
+
+    .verticalAdPP1{
+        height: 50%;
+        .img{
+            height: 100%;
+            border-radius: 10px;
+        }
+        
+    }
+
+    .verticalAdPP2{
+        height: 50%;
+        .img{
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+}
+
+.img.d-block.w-100.horizonBanAdBottomPP{
+    height: 150px;
+    border-radius: 10px;
+}
+
+.pSpec.py-2.px-2.m-2 {
+    background-color: #CBF2C5; /* Light green background */
+    color: black; /* Black text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: transform 0.3s ease; /* Smooth hover transition */
+
+    &:hover {
+        transform: translateY(-5px); /* Lift on hover */
+    }
+
+}
+
+
+.card{
+    width: auto;
+    border:none;
+    height: auto;
+
+    // rating function design css
+    .rating-css div {
+        color: #ffe400;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .rating-css input {
+        display: none;
+      }
+      .rating-css input + label {
+        font-size: 30px;
+        text-shadow: 1px 1px 0 #8f8420;
+        cursor: pointer;
+      }
+      .rating-css label:active {
+        transform: scale(0.8);
+        transition: 0.3s ease;
+      }
+      .rating-css .fa-star {
+        color: gray;
+      }
+      .rating-css input:checked + label {
+          color: #ffe400;
+      }
+      .rating-css label:hover,
+      .rating-css label:hover ~ label {
+          color: #ffe400;
+      }
+
+      .rating-css input:checked + label:hover,
+      .rating-css input:checked + label:hover ~ label,
+      .rating-css input:checked ~ label:hover,
+      .rating-css input:checked ~ label:hover ~ label {
+          color: #ffe400;
+      }
+
+      .rating,
+      .btn-success {
+        background-color: green;
+        color: white;
+    }
+    
+    .btn-rating {
+        background-color: blue;
+        color: white;
+    }
+  
+    
+}
+
+.btn.w-100.btn-link{
+    text-decoration: none;
+    color: #716C6C;
+    
+}
+
+.page-link{
+	border-radius: 5px;	
+	margin: 2px;
+}
+
+
+   /* Style to position the dropdown icon */
+.custom-select {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+}
+/* Style to create the dropdown arrow */
+.custom-select::after {
+    content: '\203A'; /* Unicode character for > symbol */
+    font-size: 24px; /* Adjust the font size as needed */
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the distance from the right */
+    transform: translateY(-50%) rotate(90deg); /* Rotate the symbol */
+    pointer-events: none; /* Ensure the arrow is not clickable */
+}
+// Define custom button styles
+.custom-button {
+  padding: 0.5rem 1rem; // Adjust the padding for smaller size
+  font-size: 0.875rem; // Set a smaller font size
+  background-color: #007bff; // Set the desired button color (Bootstrap primary color)
+  border: none; // Remove border if needed
+  color: #fff; // Set text color to white
+  display: flex; // Make sure the button and icon are aligned
+  align-items: center; // Center align the text and icon vertically
+  transition: background-color 0.3s ease; // Smooth transition for background color change
+
+  // Change button color on hover
+  &:hover {
+    background-color: #accbed; // Darker shade of blue
+  }
+
+  // Style for the icon inside the button
+  i {
+    margin-left: 0.5rem; // Adjust spacing between text and icon
+    font-size: 1rem; // Adjust icon size
+  }
+}
+
+// Define styles for both buttons
+.btn-favorite,
+.btn-share {
+  @extend .custom-button; // Apply custom button styles
+
+  // Additional specific styles for favorite button
+
+}
+
+// Add margin between the buttons
+.btn-favorite {
+  margin-right: 0.5rem; // Adjust margin as needed
+}
+
+#user-details-btn{
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.productRightDown{
+    background-color: #ffffff80 !important;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+.verify-badge-tag{
+    //background-color: #F1C48D;
+    border: 2px solid #d38df1;
+    color: #3023bd;
+    border-radius: 40px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+#ad-image{
+    height: 500px !important;
+}
+
+@media (max-width: 768px) {
+    #ad-image {
+        height: 250px !important;
+}
+}
+
+

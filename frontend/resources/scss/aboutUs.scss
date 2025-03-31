@@ -1,0 +1,64 @@
+.aboutus-content-container {
+    padding: 2rem; /* Padding */
+  }
+  
+  .aboutus-content-section {
+    padding: 2rem; /* Padding */
+    border-radius: 10px;
+    background-color: #FFFFFF; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    margin-bottom: 2rem; /* Margin bottom */
+    
+    .aboutus-header {
+        color: #3F2D40; /* Primary color */
+        font-weight: bold; /* Bold font weight */
+        text-transform: uppercase; /* Uppercase text */
+        text-align: left; /* Left-align text */
+        margin-bottom: 1rem; /* Margin bottom for spacing */
+        border-radius: 8px; /* Rounded corners */
+        width: fit-content; /* Adjust width to fit content */
+      }
+
+    .aboutus-paragraph {
+      line-height: 1.6; /* Line height */
+    }
+  }
+  
+  .aboutus-faq-accordion {
+    .aboutus-faq-card {
+      border: none;
+      margin-bottom: 1rem; /* Margin bottom */
+  
+      .aboutus-faq-card-header {
+        background-color: #CAF2C4; /* Secondary color */
+        color: #333; /* Text color */
+        padding: 1rem; /* Padding */
+        border-radius: 10px;
+        cursor: pointer;
+  
+        .aboutus-faq-btn {
+          color: #333; /* Text color */
+          text-decoration: none;
+          background: none;
+          border: none;
+          font-size: 1rem; /* Font size */
+          text-align: left;
+          width: 100%;
+          padding: 0;
+          cursor: pointer;
+  
+          &:hover {
+            text-decoration: underline; /* Hover effect */
+          }
+        }
+      }
+  
+      .aboutus-faq-collapse {
+        .aboutus-faq-card-body {
+          background-color: #FFFFFF; /* Background color */
+          padding: 1rem; /* Padding */
+          border-radius: 0 0 10px 10px;
+        }
+      }
+    }
+  }

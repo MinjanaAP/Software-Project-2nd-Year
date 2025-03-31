@@ -1,0 +1,63 @@
+// Add custom styling for the side navigation bar
+.sidenav {
+    background-color: #f8f9fa; // Adjust background color as needed
+    padding: 20px;
+    height: 100%;
+}
+
+.tag-images {
+    width: 30px; // Adjust image size as needed
+}
+
+.main {
+    font-size: 16px; // Adjust font size as needed
+    margin: 0 !important;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.navigation-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    cursor: pointer; 
+}
+
+.profile {
+    display: flex;
+    align-items: center; // Center items vertically
+}
+
+.profile-info {
+    margin-right: 10px; // Add some space between name and image
+}
+
+.name {
+    font-weight: bold; // Make name bold
+    margin-bottom: 5px; // Add some space between name and additional info
+}
+
+.profile-image {
+    flex-shrink: 0; // Prevent image from shrinking
+}
+
+.avatar {
+    width: 50px; // Adjust image size as needed
+    height: 50px; // Ensure circular shape
+    border-radius: 50%; // Make image circular
+    border: 2px solid #fff; // Add a border for better visibility
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Add shadow for elevation
+}
+
+.navigation-item-btn{
+    border: none;
+    background-color: white;
+
+}
