@@ -1,66 +1,141 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Classified Ads Management System - Frontend
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This is the frontend for the **Classified Ads Management System**, developed using **Laravel**. The frontend allows users to view, filter, and interact with the ads posted by users, and administrators can manage the ads through a dynamic admin panel.
 
-## About Laravel
+The frontend uses **Laravel Blade** for templating, **Bootstrap** for responsive design, and **AJAX** for dynamic content loading. It interacts with the backend API to display and manage classified ads.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Table of Contents
+- [Installation](#installation)
+- [Environment Variables](#environment-variables)
+- [Frontend Structure](#frontend-structure)
+- [Technologies Used](#technologies-used)
+- [Contributions & Credits](#contributions--credits)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Installation
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Requirements
+- PHP >= 8.0
+- Laravel 8.x or above
+- Composer
+- Node.js (for running frontend assets)
 
-## Learning Laravel
+### Step-by-Step Installation
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/MinjanaAP/Software-Project-2nd-Year.git
+   cd frontend
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+2. **Install Dependencies**
+   Run the following command to install the required dependencies via Composer:
+   ```bash
+   composer install
+   ```
 
-## Laravel Sponsors
+3. **Set Up Environment Variables**
+   Copy the `.env.example` file to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+4. **Configure Environment Variables**
+   Open the `.env` file and update the necessary environment variables like:
+   - `APP_URL`: URL of your frontend (e.g., `http://localhost`).
+   - `BACKEND_URL`: URL of the backend API (e.g., `http://localhost:8008`).
 
-### Premium Partners
+5. **Generate Application Key**
+   Run the following Artisan command to generate the application key:
+   ```bash
+   php artisan key:generate
+   ```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+6. **Install Frontend Dependencies**
+   Run the following command to install frontend dependencies using npm:
+   ```bash
+   npm install
+   ```
 
-## Contributing
+7. **Compile Assets**
+   After installing the dependencies, compile the frontend assets:
+   ```bash
+   npm run dev
+   ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+8. **Run the Application**
+   After everything is set up, run the Laravel server using:
+   ```bash
+   php artisan serve
+   ```
+   The frontend should now be running on `http://127.0.0.1:8000`.
 
-## Code of Conduct
+## Environment Variables
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+This project requires the following environment variables to be set up in the `.env` file:
 
-## Security Vulnerabilities
+- **APP_NAME**: The name of the application.
+- **APP_ENV**: The environment the application is running in (e.g., local, production).
+- **APP_KEY**: Application key (generated using `php artisan key:generate`).
+- **APP_URL**: URL for the frontend application (e.g., `http://localhost`).
+- **BACKEND_URL**: URL for the backend API (e.g., `http://localhost:8000`).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Frontend Structure
 
-## License
+The Laravel frontend is organized as follows:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+/classified-ads-frontend
+│
+├── /app
+│   ├── /Http
+│   │   ├── /Controllers         # All controller classes (e.g., AdminController, AdController)
+│   ├── /Models                  # Eloquent models (e.g., Ad, Category, User)
+│   └── /Providers               # Service providers
+│
+├── /resources
+│   ├── /views                   # Blade views for displaying pages
+│   ├── /js                      # JavaScript files (AJAX calls for dynamic content)
+│   └── /sass                    # SCSS or CSS files
+│
+├── /public                       # Publicly accessible files like images, scripts
+│   └── /uploads                  # Folder for uploaded images, documents, etc.
+│
+├── /routes
+│   └── web.php                  # Web routes definitions for frontend views
+│
+├── /resources/lang               # Language files for translations
+├── /config                       # Configuration files for frontend
+└── .env                           # Environment variables
+```
+
+### Key Files:
+- **/app/Http/Controllers/AdController.php**: Handles displaying ads on the frontend.
+- **/resources/views/**: Contains the Blade views that structure the frontend pages (e.g., home page, ads listing, ad details, admin panel).
+- **/resources/js/**: JavaScript files for dynamic interaction using AJAX (e.g., handling ad filtering).
+- **/routes/web.php**: Contains all routes for serving Blade views and handling frontend logic.
+
+## Technologies Used
+
+- **Laravel**: PHP framework for building the frontend.
+- **Bootstrap**: CSS framework used for responsive design.
+- **AJAX/jQuery**: Used to dynamically load ads and manage interactions without refreshing the page.
+- **Blade**: Templating engine used to structure the HTML views.
+- **SASS/SCSS**: CSS preprocessor for styling.
+- **Laravel Mix**: Asset compilation tool for managing frontend assets like JavaScript, CSS, and images.
+
+## Contributions & Credits
+
+This project is a collaboration with **Nemo Technologies Pvt. Ltd.**, which provided support and guidance throughout the development process.
+
+### Team Members:
+- **[Basuru Jithmal](https://github.com/basurujithmal)** - Developer
+- **[Pasan Athuluwage](https://github.com/MinjanaAP)** - PM & Developer
+- **[Ishari Abesooriya](https://github.com/ishariabesooriya)** - BA & Developer
+- **[Wethma Sithumini](https://github.com/wethmasithumini)** - Developer
+- **[Ashini Hasara](https://github.com/ashinihasara)** - Developer
+
+---
+
+### Special Thanks to **Nemo Technologies Pvt. Ltd.** for their collaboration and support throughout the project.
+```
+
