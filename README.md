@@ -154,5 +154,5 @@ This project is licensed under the MIT License.
 For any queries or collaboration, feel free to reach out to me!
 
 📧 Email: pasanathuluwage28@gmail.com  
-👨‍💻 GitHub: [yourusername](https://github.com/MinjanaAP)
+👨‍💻 GitHub: [MinjanaAP](https://github.com/MinjanaAP)
 
