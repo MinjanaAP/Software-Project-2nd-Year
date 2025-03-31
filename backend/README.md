@@ -26,8 +26,8 @@ This is the backend for the **Classified Ads Management System**, developed usin
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/classified-ads-backend.git
-   cd classified-ads-backend
+   git clone https://github.com/MinjanaAP/Software-Project-2nd-Year.git
+   cd backend
 
 
 2. **Install Dependencies**
@@ -172,7 +172,7 @@ This project is a collaboration with **Nemo Technologies Pvt. Ltd.**, which prov
 
 ### Team Members:
 - **[Basuru Jithmal](https://github.com/basurujithmal)** - Developer
-- **[Pasan Athuluwage](https://github.com/pasanathuluwage)** - PM & Developer
+- **[Pasan Athuluwage](https://github.com/MinjanaAP)** - PM & Developer
 - **[Ishari Abesooriya](https://github.com/ishariabesooriya)** - BA & Developer
 - **[Wethma Sithumini](https://github.com/wethmasithumini)** - Developer
 - **[Ashini Hasara](https://github.com/ashinihasara)** - Developer
